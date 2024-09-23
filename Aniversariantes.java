@@ -19,9 +19,11 @@ public class Aniversariantes {
 		
 		JOptionPane.showMessageDialog(null,  Nome +" "+ Snome +"\n"
 				+"Sua data de nascimento é " + DiaNas+"/" +MesNas+ "/"+ AnoNas );
-		if(iMesNas == 9) {
+		if(MesAtual == iMesNas) {
 		JOptionPane.showMessageDialog(null, "FELIZ ANIVERSÁRIO " + Nome);
+			 }else {
+        	JOptionPane.showMessageDialog(null, "Não é o mês do seu aniversário");
+	}
 	}
 
-}
 }
